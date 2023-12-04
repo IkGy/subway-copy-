@@ -35,10 +35,6 @@ ul {
   float: right;
 }
 
-.dropDown{
-
-}
-
 .menu {
   list-style: none;
   display: flex;
@@ -60,17 +56,15 @@ ul {
   position: absolute;
   top: 100%;
   left: 0;
-  padding: 30px;
   background-color: #fff;
+  padding: 30px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-
-
   display: none;
   width: 100%;
   flex-direction: row;
 }
 
-.menu-item:hover .menu-item {
+.menu-item:hover .submenu {
   display: flex;
   flex-direction: column; 
 }

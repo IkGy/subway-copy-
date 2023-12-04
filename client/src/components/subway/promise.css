@@ -1,10 +1,6 @@
-ol{
-  list-style: none;
-}
-
 #Promise_Main_Div{
   margin: auto;
-  width: 100%;
+  width: 80%;
   justify-content: center;
   display: grid;
   grid-template-areas: ".Head_Line"
@@ -19,22 +15,11 @@ ol{
   font-size: 50px;
   font-style: bold;
 }
-.grid_li{
-  margin: 0;
-  padding: 0;
-  line-height: 120%;
-  /* border: 1px solid #000; */
-}
-.grid_li_item{
-  width: 100%;
-  border: 1px solid #000;
-}
-
 .grid_box{
   width: 100%;
   padding-top: 5%;
   position: relative;
-  /* border: 1px solid #000; */
+  border: 1px solid #000;
 }
 #grid_1st, #grid_3rd{
   display: grid;
@@ -57,40 +42,11 @@ ol{
   margin-top: 10%;
   width: fit-content;
   height: 50%;
-  /* border: 1px solid #000; */
+  border: 1px solid #000;
 }
 
-.grid_head_txt{
-  font-size: 28px;
-}
-
-.grid_main_txt{
-  font-size: 16px;
-}
-
-
-
-
-
-
-
-.eng_l{
-  height: fit-content;
-  width: fit-content;
+.eng{
   position: absolute;
-  right: 50%;
-  bottom: 0px;
-  color: aliceblue;
-  font-size: 80px;
-  font-weight: 900;
-  outline: 1px solid #000;
-}
-
-.eng_r{
-  height: fit-content;
-  width: fit-content;
-  position: absolute;
-  left: 50%;
   bottom: 0px;
   color: aliceblue;
   font-size: 80px;

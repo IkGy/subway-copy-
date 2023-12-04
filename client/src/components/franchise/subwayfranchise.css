@@ -28,11 +28,6 @@
   color: #ffffff;
 }
 
-.nation_hover1::after{
-  background-color: rgb(223, 223, 109);
-  color: #ffffff;
-}
-
 .box{
   position: relative;
   left: 650px;
