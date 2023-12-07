@@ -49,7 +49,7 @@ const Base = () => {
                                 </div>
                                 <div className="base_top_button">
                                     <Link to="/" className="base_top_2_info_button">
-                                        <span>써브웨이 역사</span>
+                                        <span>서브웨이 역사</span>
                                     </Link>
                                 </div>
                             </div>

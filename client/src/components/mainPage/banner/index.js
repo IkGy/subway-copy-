@@ -39,7 +39,6 @@ const Banner = () => {
                     <div className='quick_link_content'>
                         <Link to ='/'>
                             <div className="store">
-                            
                                 <div className="store_section">
                                     <div className='link_section'>
                                         <img src={Map} alt="매장찾기"/>매장찾기     

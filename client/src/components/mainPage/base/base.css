@@ -10,6 +10,7 @@
     width: 1280px;
     height: 100%;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .base_section {
@@ -292,6 +293,7 @@
     left: 4px;
     width: 60px;
     height: 60px;
+    border: 1px solid gray;
 }
 
 .btm_qms strong {

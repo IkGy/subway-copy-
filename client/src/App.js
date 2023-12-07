@@ -5,7 +5,6 @@ import Promise from "./components/subway/promise";
 import Apply from "./components/subway/apply";
 import StoreSearch from "./components/subway/search";
 import Header from "./components/header/header";
-import Footer from "./components/footer/footer";
 import Main from "./components/mainPage";
 import Event from './components/NewsPage/Event';
 import Login from './components/login/login';
@@ -16,7 +15,8 @@ import Order from "./components/order/order"
 import Ordertip from "./components/howtouse/howtousesubway/ordertip"
 import Groupmenu from "./components/howtouse/groupmenu/groupmenu"
 import Howtousesubway from "./components/howtouse/howtousesubway/howtousesubway"
-
+import FAQ from './components/helpdesk/faq';
+import QNA from './components/helpdesk/qna';
 function App() {
   return (
     <div className="App">
@@ -36,8 +36,9 @@ function App() {
         <Route path="/Howtousesubway" element={<Howtousesubway></Howtousesubway>}></Route>
         <Route path="/Ordertip" element={<Ordertip></Ordertip>}></Route>
         <Route path="/Groupmenu" element={<Groupmenu></Groupmenu>}></Route>
+        <Route path="/faq" element={<FAQ />}></Route>
+        <Route path="/qna" element={<QNA />}></Route>
       </Routes>
-      <Footer />
     </div>
   );
 }

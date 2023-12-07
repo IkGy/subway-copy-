@@ -34,7 +34,7 @@ const QM_Data = [
         text: '자주하는 질문/1:1문의',
         img: QM_04,
         alt: '고객문의',
-        path: '/four'
+        path: '/faq'
     },
 ];
 
